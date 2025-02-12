@@ -1,0 +1,1366 @@
+{
+  "success": true,
+  "result": [
+    {
+      "_id": "641d424bdbfab7b02ab28b95",
+      "img": "https://i.ibb.co/sVxYFDY/product-cat-1.png",
+      "parent": "Tai Nghe",
+      "children": [
+        "Tai Nghe Trẻ Em",
+        "Tai Nghe Bluetooth",
+        "Tai Nghe Nhét Tai"
+      ],
+      "productType": "electronics",
+      "products": [
+        {
+          "brand": {
+            "name": "Logitech",
+            "id": "6412eae89c2275a25d09541d"
+          },
+          "category": {
+            "name": "Headphones",
+            "id": "6419723bd7dc5155c04350d3"
+          },
+          "_id": "641e887d05f9ee1717e1348a",
+          "sku": "NTB7SDVX44",
+          "img": "https://i.ibb.co/WVdTgR8/headphone-1.png",
+          "title": "Headphones Wireless.",
+          "slug": "headphones-wireless.",
+          "unit": "3pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Purply Blue",
+                "clrCode": "#C1BAE4"
+              },
+              "img": "https://i.ibb.co/WVdTgR8/headphone-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df3"
+            },
+            {
+              "color": {
+                "name": "Light Grey",
+                "clrCode": "#D8D7DD"
+              },
+              "img": "https://i.ibb.co/zh9x3Q0/headphone-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df4"
+            },
+            {
+              "color": {
+                "name": "Baby Pink",
+                "clrCode": "#F3C0D1"
+              },
+              "img": "https://i.ibb.co/JBZk7sS/headphone-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df5"
+            },
+            {
+              "color": {
+                "name": "Bluish Cyan",
+                "clrCode": "#64BFD1"
+              },
+              "img": "https://i.ibb.co/SrPq3r0/headphone-4.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df6"
+            }
+          ],
+          "parent": "Headphones",
+          "children": "Bluetooth Headphones",
+          "price": 120,
+          "discount": 14,
+          "quantity": 12,
+          "status": "in-stock",
+          "reviews": ["6461c46a9154b65448da799f"],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "additionalInformation": [
+            {
+              "key": "Standing screen display size",
+              "value": "Screen display Size 10.4"
+            },
+            {
+              "key": "Colors",
+              "value": "Purply Blue, Light Grey, Baby Pink, Bluish Cyan"
+            },
+            {
+              "key": "Screen Resolution",
+              "value": "1920 x 1200 Pixels"
+            },
+            {
+              "key": "Max Screen Resolution",
+              "value": "2000 x 1200"
+            },
+            {
+              "key": "Processor",
+              "value": "2.3 GHz (128 GB)"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Headphones", "Bluetooth "],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 1,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.503Z",
+          "updatedAt": "2023-12-25T10:29:48.503Z"
+        },
+        {
+          "brand": {
+            "name": "Sony",
+            "id": "641522d9cd2724817c1c7c38"
+          },
+          "category": {
+            "name": "Headphones",
+            "id": "6419723bd7dc5155c04350d3"
+          },
+          "offerDate": {
+            "startDate": "2023-06-15T18:00:00.000Z",
+            "endDate": "2023-08-15T18:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e1348f",
+          "sku": "NVB7SDVX45",
+          "img": "https://i.ibb.co/n1YRvWJ/headphone-5.png",
+          "title": "Gaming Headphone",
+          "slug": "gaming-headphone",
+          "unit": "5pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Cyan",
+                "clrCode": "#03E2DD"
+              },
+              "img": "https://i.ibb.co/n1YRvWJ/headphone-5.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df8"
+            },
+            {
+              "color": {
+                "name": "Dark Grey",
+                "clrCode": "#484848"
+              },
+              "img": "https://i.ibb.co/WpkH1vq/headphone-6.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61df9"
+            },
+            {
+              "color": {
+                "name": "Orange",
+                "clrCode": "#F17B3D"
+              },
+              "img": "https://i.ibb.co/yRYbDCc/headphone-7.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61dfa"
+            }
+          ],
+          "parent": "Headphones",
+          "children": "Kids Headphones",
+          "price": 130,
+          "discount": 5,
+          "quantity": 10,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "additionalInformation": [
+            {
+              "key": "Standing screen display size",
+              "value": "Screen display Size 10.4"
+            },
+            {
+              "key": "Colors",
+              "value": "Cyan, Dark Grey, Orange"
+            },
+            {
+              "key": "Screen Resolution",
+              "value": "1920 x 1200 Pixels"
+            },
+            {
+              "key": "Max Screen Resolution",
+              "value": "2000 x 1200"
+            },
+            {
+              "key": "Processor",
+              "value": "2.3 GHz (128 GB)"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Headphones", "Kids "],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 2,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.503Z",
+          "updatedAt": "2023-12-25T10:29:48.503Z"
+        },
+        {
+          "brand": {
+            "name": "Sony",
+            "id": "641522d9cd2724817c1c7c38"
+          },
+          "category": {
+            "name": "Headphones",
+            "id": "6419723bd7dc5155c04350d3"
+          },
+          "_id": "641e887d05f9ee1717e13496",
+          "sku": "BVB7SDVX50",
+          "img": "https://i.ibb.co/5FPhGtq/headphone-8.png",
+          "title": "Headphone with Mic",
+          "slug": "headphone-with-mic",
+          "unit": "4pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Tealish Blue",
+                "clrCode": "#455D89"
+              },
+              "img": "https://i.ibb.co/5FPhGtq/headphone-8.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61dfc"
+            },
+            {
+              "color": {
+                "name": "Silver",
+                "clrCode": "#ECECEC"
+              },
+              "img": "https://i.ibb.co/vHP1TQf/headphone-9.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61dfd"
+            },
+            {
+              "color": {
+                "name": "Reddish Magenta",
+                "clrCode": "#DED3DB"
+              },
+              "img": "https://i.ibb.co/3mdtrcm/headphone-10.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61dfe"
+            }
+          ],
+          "parent": "Headphones",
+          "children": "On-Ear Headphones",
+          "price": 110,
+          "discount": 0,
+          "quantity": 8,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "videoId": "EW4ZYb3mCZk",
+          "additionalInformation": [
+            {
+              "key": "Standing screen display size",
+              "value": "Screen display Size 10.4"
+            },
+            {
+              "key": "Colors",
+              "value": "Tealish Blue, Silver, Reddish Magenta"
+            },
+            {
+              "key": "Screen Resolution",
+              "value": "1920 x 1200 Pixels"
+            },
+            {
+              "key": "Max Screen Resolution",
+              "value": "2000 x 1200"
+            },
+            {
+              "key": "Processor",
+              "value": "2.3 GHz (128 GB)"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Headphones", "On-Ear"],
+          "sizes": [],
+          "featured": true,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.503Z",
+          "updatedAt": "2023-12-25T10:29:48.503Z"
+        }
+      ],
+      "status": "Show",
+      "__v": 0,
+      "createdAt": "2023-12-25T10:29:47.887Z",
+      "updatedAt": "2023-12-25T10:29:47.887Z"
+    },
+    {
+      "_id": "6419723bd7dc5155c04350d4",
+      "img": "https://i.ibb.co/xHFpQTV/product-cat-2.png",
+      "parent": "Điện Thoại",
+      "children": ["Samsung", "Apple"],
+      "productType": "electronics",
+      "products": [
+        {
+          "brand": {
+            "name": "Samsung",
+            "id": "64153eb3707ca6a96638c13b"
+          },
+          "category": {
+            "name": "Mobile Tablets",
+            "id": "6419723bd7dc5155c04350d4"
+          },
+          "_id": "641e887d05f9ee1717e1349a",
+          "sku": "BD7SDVX62",
+          "img": "https://i.ibb.co/jvGv6qf/mobile-1.png",
+          "title": "Galaxy Android Tablet",
+          "slug": "galaxy-android-tablet",
+          "unit": "8pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#3A454B"
+              },
+              "img": "https://i.ibb.co/jvGv6qf/mobile-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e00"
+            },
+            {
+              "color": {
+                "name": "Gray",
+                "clrCode": "#3C3B39"
+              },
+              "img": "https://i.ibb.co/F3VPLLh/mobile-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e01"
+            },
+            {
+              "color": {
+                "name": "Silver",
+                "clrCode": "#343338"
+              },
+              "img": "https://i.ibb.co/rtmKcPg/mobile-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e02"
+            },
+            {
+              "color": {
+                "name": "Cadet Grey",
+                "clrCode": "#7B97A3"
+              },
+              "img": "https://i.ibb.co/NpWtdts/mobile-4.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e03"
+            }
+          ],
+          "parent": "Mobile Tablets",
+          "children": "Samsung",
+          "price": 320,
+          "discount": 10,
+          "quantity": 12,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2022, September"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Gray, Silver, Cadet Grey"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Mobile ", "Tablets", "Samsung"],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.503Z",
+          "updatedAt": "2023-12-25T10:29:48.503Z"
+        },
+        {
+          "brand": {
+            "name": "Apple",
+            "id": "6415479cfba1a43da8287e20"
+          },
+          "category": {
+            "name": "Mobile Tablets",
+            "id": "6419723bd7dc5155c04350d4"
+          },
+          "offerDate": {
+            "endDate": "2024-04-20T00:00:00.000Z",
+            "startDate": "2023-12-10T00:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e1349f",
+          "sku": "AF7SDVX65",
+          "img": "https://i.ibb.co/3WMPkkf/mobile-5.png",
+          "title": "iPhone 14 Pro",
+          "slug": "iphone-14-pro",
+          "unit": "10pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Lunar Green",
+                "clrCode": "#33422B"
+              },
+              "img": "https://i.ibb.co/3WMPkkf/mobile-5.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e05"
+            },
+            {
+              "color": {
+                "name": "Dark",
+                "clrCode": "#292C31"
+              },
+              "img": "https://i.ibb.co/MfdxWfv/mobile-6.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e06"
+            },
+            {
+              "color": {
+                "name": "Red Wine",
+                "clrCode": "#BA1827"
+              },
+              "img": "https://i.ibb.co/vV22rXc/mobile-7.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e07"
+            },
+            {
+              "color": {
+                "name": "Peach Schnapps",
+                "clrCode": "#EAD2CE"
+              },
+              "img": "https://i.ibb.co/Kby3sY7/mobile-8.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e08"
+            }
+          ],
+          "parent": "Mobile Tablets",
+          "children": "Apple",
+          "price": 1199,
+          "discount": 15,
+          "quantity": 20,
+          "status": "in-stock",
+          "reviews": ["6463026f9eb7e8a0fc8b3457"],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Lunar Green, Dark, Red Wine, Peach Schnapps"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Mobile ", "Tablets", "Apple"],
+          "sizes": [],
+          "featured": true,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-29T10:48:08.693Z"
+        },
+        {
+          "brand": {
+            "name": "Apple",
+            "id": "6415479cfba1a43da8287e20"
+          },
+          "category": {
+            "name": "Mobile Tablets",
+            "id": "6419723bd7dc5155c04350d4"
+          },
+          "_id": "641d4106dbfab7b02ab28b22",
+          "sku": "CF7SDVX72",
+          "img": "https://i.ibb.co/kxGMcrw/ipad-1.png",
+          "title": "Apple iPad Air",
+          "slug": "apple-iPad-air",
+          "unit": "12pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Gray",
+                "clrCode": "#D1CFE4"
+              },
+              "img": "https://i.ibb.co/kxGMcrw/ipad-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e0a"
+            },
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#929095"
+              },
+              "img": "https://i.ibb.co/NpWzRPL/ipad-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e0b"
+            },
+            {
+              "color": {
+                "name": "Moonstone Blue",
+                "clrCode": "#9DC1D1"
+              },
+              "img": "https://i.ibb.co/bzgBZ4Y/ipad-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e0c"
+            }
+          ],
+          "parent": "Mobile Tablets",
+          "children": "Apple",
+          "price": 999,
+          "discount": 5,
+          "quantity": 13,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset has replaced previous hybrid working standards. Industry-leading call quality thanks to top-notch audio engineering. With this intelligent headset, you can stay connected and productive from the first call of the day to the last train home. With an ergonomic earcup design, this headset invented a brand-new dual-foam technology. You will be comfortable from the first call to the last thanks to the re-engineered leatherette ear cushion design that allows for better airflow. We can provide exceptional noise isolation and the best all-day comfort by mixing firm foam for the outer with soft foam for the interior of the ear cushions. So that you may receive Active Noise-Cancellation (ANC) performance that is even greater in a headset that you can wear for whatever length you wish. The headset also offers MS Teams Certifications and other features like Busylight, Calls controls, Voice guiding, and Wireless range (ft): Up to 100 feet. Best-in-class. Boom The most recent Jabra Evolve2 75 USB-A MS Teams Stereo Headset offers professional-grade call performance that leads the industry, yet Evolve2 75 wins best-in-class. Additionally, this includes a redesigned microphone boom arm that is 33 percent shorter than the Evolve 75 and offers the industry-leading call performance for which Jabra headsets are known. It complies with Microsoft's Open Office criteria and is specially tuned for outstanding conversations in open-plan workplaces and other loud environments when the microphone boom arm is lowered in Performance Mode.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Gray, Black, Moonstone Blue"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["Mobile ", "Ipad", "Apple"],
+          "sizes": [],
+          "featured": true,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        }
+      ],
+      "status": "Show",
+      "__v": 0,
+      "createdAt": "2023-12-25T10:29:47.887Z",
+      "updatedAt": "2023-12-25T10:29:47.887Z"
+    },
+    {
+      "_id": "6419723bd7dc5155c04350d5",
+      "img": "https://i.ibb.co/S0GjZdp/product-cat-3.png",
+      "parent": "Tản Nhiệt CPU",
+      "children": ["Tản Nhiệt Nước", "Tản Nhiệt Khí"],
+      "productType": "electronics",
+      "products": [
+        {
+          "brand": {
+            "name": "Deepcool",
+            "id": "64154ee693b3f0f2c7ec7ff8"
+          },
+          "category": {
+            "name": "CPU Heat Pipes",
+            "id": "6419723bd7dc5155c04350d5"
+          },
+          "_id": "641e887d05f9ee1717e134ad",
+          "sku": "DF7SDVX72",
+          "img": "https://i.ibb.co/wYZr4k6/cpu-1.png",
+          "title": "DeepCool Air Cooler",
+          "slug": "deepCool-air-cooler",
+          "unit": "15pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#565656"
+              },
+              "img": "https://i.ibb.co/wYZr4k6/cpu-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e0e"
+            },
+            {
+              "color": {
+                "name": "Carbon Grey",
+                "clrCode": "#606060"
+              },
+              "img": "https://i.ibb.co/xsKNnzM/cpu-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e0f"
+            },
+            {
+              "color": {
+                "name": "White",
+                "clrCode": "#F4F4F4"
+              },
+              "img": "https://i.ibb.co/Yf8YRGy/cpu-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e10"
+            },
+            {
+              "color": {
+                "name": "Light Gray",
+                "clrCode": "#3C3C3C"
+              },
+              "img": "https://i.ibb.co/23XyrR3/cpu-4.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e11"
+            }
+          ],
+          "parent": "CPU Heat Pipes",
+          "children": "CPU Cooler",
+          "price": 80,
+          "discount": 0,
+          "quantity": 5,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "DeepCool ICE EDGE MINI FS V2.0 CPU Air Cooler DeepCool ICE EDGE MINI FS V2.0 CPU Air Cooler is AMD AM4 Ready. (NOTE: Refer to FM2+/ FM2/ FM1/ AM3+/ AM3/ AM2+/ AM2 for the manuals). It is equipped with multiple clips to support Intel LGA1155/ 1156/ 775 and AMD AM4/ AM3/ AM2+/ AM2/ K8. It has 2 sintered metal powder heatpipes directly contacting the CPU surface for removing heat and eliminating chances of overheating. It features specialized aluminum heatsink construction for efficient heat dissipation. TPE fan housing designed to absorb operating vibration and reduce fan noise. it has a 1-year warranty.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Carbon Grey, White, Light Gray"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["cpu", "cpu cooler"],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        },
+        {
+          "brand": {
+            "name": "Antec",
+            "id": "6415545493b3f0f2c7ec7ffa"
+          },
+          "category": {
+            "name": "CPU Heat Pipes",
+            "id": "6419723bd7dc5155c04350d5"
+          },
+          "offerDate": {
+            "startDate": "2023-05-11T18:00:00.000Z",
+            "endDate": "2023-07-11T18:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e134b2",
+          "sku": "DF7SDVX75",
+          "img": "https://i.ibb.co/tpypd3B/cpu-5.png",
+          "title": "Antec Air Cooler",
+          "slug": "antec-air-cooler",
+          "unit": "15pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#3A3A3A"
+              },
+              "img": "https://i.ibb.co/tpypd3B/cpu-5.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e13"
+            },
+            {
+              "color": {
+                "name": "Silver",
+                "clrCode": "#4E534F"
+              },
+              "img": "https://i.ibb.co/wwNDDSG/cpu-6.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e14"
+            },
+            {
+              "color": {
+                "name": "Gray",
+                "clrCode": "#0E0E0E"
+              },
+              "img": "https://i.ibb.co/sHRhjSC/cpu-7.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e15"
+            },
+            {
+              "color": {
+                "name": "Light Gray",
+                "clrCode": "#7C7C7C"
+              },
+              "img": "https://i.ibb.co/vDrwNFX/cpu-8.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e16"
+            }
+          ],
+          "parent": "CPU Heat Pipes",
+          "children": "Air CPU Cooler",
+          "price": 80,
+          "discount": 0,
+          "quantity": 5,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Antec ICE EDGE MINI FS V2.0 CPU Air Cooler DeepCool ICE EDGE MINI FS V2.0 CPU Air Cooler is AMD AM4 Ready. (NOTE: Refer to FM2+/ FM2/ FM1/ AM3+/ AM3/ AM2+/ AM2 for the manuals). It is equipped with multiple clips to support Intel LGA1155/ 1156/ 775 and AMD AM4/ AM3/ AM2+/ AM2/ K8. It has 2 sintered metal powder heatpipes directly contacting the CPU surface for removing heat and eliminating chances of overheating. It features specialized aluminum heatsink construction for efficient heat dissipation. TPE fan housing designed to absorb operating vibration and reduce fan noise. it has a 1-year warranty.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Silver, Gray, Light Gray"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["cpu", "air cooler"],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        }
+      ],
+      "status": "Show",
+      "__v": 0,
+      "createdAt": "2023-12-25T10:29:47.887Z",
+      "updatedAt": "2023-12-25T10:29:47.887Z"
+    },
+    {
+      "_id": "6419723bd7dc5155c04350d6",
+      "img": "https://i.ibb.co/g3YK8H2/product-cat-4.png",
+      "parent": "Đồng Hồ Thông Minh",
+      "children": [
+        "Đồng Hồ Thông Minh Thể Thao",
+        "Apple Watch",
+        "Đồng Hồ Thông Minh Thể Dục"
+      ],
+      "productType": "electronics",
+      "products": [
+        {
+          "brand": {
+            "name": "Apple",
+            "id": "6415479cfba1a43da8287e20"
+          },
+          "category": {
+            "name": "Smart Watch",
+            "id": "6419723bd7dc5155c04350d6"
+          },
+          "_id": "641e887d05f9ee1717e134b7",
+          "sku": "EF7SDVX72",
+          "img": "https://i.ibb.co/yRRLCc5/watch-1.png",
+          "title": "Apple Watch Sport Band",
+          "slug": "apple-watch-sport-band",
+          "unit": "18pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Light Gray",
+                "clrCode": "#D9D5D4"
+              },
+              "img": "https://i.ibb.co/yRRLCc5/watch-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e18"
+            },
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#686465"
+              },
+              "img": "https://i.ibb.co/WK6bhWf/watch-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e19"
+            },
+            {
+              "color": {
+                "name": "White",
+                "clrCode": "#EAEAEA"
+              },
+              "img": "https://i.ibb.co/f2DJvh9/watch-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e1a"
+            },
+            {
+              "color": {
+                "name": "Gray",
+                "clrCode": "#D0C9D0"
+              },
+              "img": "https://i.ibb.co/8rfG5wZ/watch-4.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e1b"
+            }
+          ],
+          "parent": "Smart Watch",
+          "children": "Apple Watch",
+          "price": 449,
+          "discount": 5,
+          "quantity": 5,
+          "status": "in-stock",
+          "reviews": ["646893f7d1f8b988a8f7be68", "646895be5058260f55efbfa6"],
+          "productType": "electronics",
+          "description": "Starlight Aluminum Case with Braided Solo Loop The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Light Gray, Black, Gray"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["watch", "apple"],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        },
+        {
+          "brand": {
+            "name": "Sony",
+            "id": "641522d9cd2724817c1c7c38"
+          },
+          "category": {
+            "name": "Smart Watch",
+            "id": "6419723bd7dc5155c04350d6"
+          },
+          "_id": "641e887d05f9ee1717e134c0",
+          "sku": "EF7SDVX73",
+          "img": "https://i.ibb.co/j4sDV3Q/watch-5.png",
+          "title": "Sony Smart Watch",
+          "slug": "sony-smart-watch",
+          "unit": "12pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Grey Goose",
+                "clrCode": "#E8E3DD"
+              },
+              "img": "https://i.ibb.co/j4sDV3Q/watch-5.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e1d"
+            },
+            {
+              "color": {
+                "name": "Rose Gold",
+                "clrCode": "#E0C1BC"
+              },
+              "img": "https://i.ibb.co/hDwW5Td/watch-6.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e1e"
+            },
+            {
+              "color": {
+                "name": "Gold",
+                "clrCode": "#CBAC97"
+              },
+              "img": "https://i.ibb.co/6HFLgPB/watch-7.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e1f"
+            },
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#282828"
+              },
+              "img": "https://i.ibb.co/JxJ0XS4/watch-8.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e20"
+            }
+          ],
+          "parent": "Smart Watch",
+          "children": "Sports Smart Watch",
+          "price": 200,
+          "discount": 5,
+          "quantity": 5,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Starlight Aluminum Case with Braided Solo Loop The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Grey Goose, Rose Gold, Gold, Black"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["watch", "sports"],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        },
+        {
+          "brand": {
+            "name": "Sony",
+            "id": "641522d9cd2724817c1c7c38"
+          },
+          "category": {
+            "name": "Smart Watch",
+            "id": "6419723bd7dc5155c04350d6"
+          },
+          "offerDate": {
+            "startDate": "2023-12-10T00:00:00.000Z",
+            "endDate": "2024-03-15T00:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e134c6",
+          "sku": "EG8SDVX74",
+          "img": "https://i.ibb.co/fMhtt2T/watch-9.png",
+          "title": "Sony Lady Fitness Watch",
+          "slug": "sony-lady-fitness-watch",
+          "unit": "10pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#333333"
+              },
+              "img": "https://i.ibb.co/fMhtt2T/watch-9.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e22"
+            },
+            {
+              "color": {
+                "name": "Oyster Pink",
+                "clrCode": "#F2C4B4"
+              },
+              "img": "https://i.ibb.co/HK6jnjP/watch-10.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e23"
+            },
+            {
+              "color": {
+                "name": "Dawn Pink",
+                "clrCode": "#C9AFB0"
+              },
+              "img": "https://i.ibb.co/RNrDzH7/watch-11.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e24"
+            },
+            {
+              "color": {
+                "name": "Light Gray",
+                "clrCode": "#1F1F21"
+              },
+              "img": "https://i.ibb.co/HCzgB0m/watch-12.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e25"
+            }
+          ],
+          "parent": "Smart Watch",
+          "children": "Fitness Smart Watch",
+          "price": 150,
+          "discount": 3,
+          "quantity": 7,
+          "status": "in-stock",
+          "reviews": [
+            "6461c5b99154b65448da7a38",
+            "6461c5c19154b65448da7a43",
+            "6462f65c5693f23f37e966d9"
+          ],
+          "productType": "electronics",
+          "description": "Starlight Aluminum Case with Braided Solo Loop The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Oyster Pink, Dawn Pink, Light Gray"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["watch", "fitness"],
+          "sizes": [],
+          "featured": true,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-29T10:44:06.922Z"
+        }
+      ],
+      "status": "Show",
+      "__v": 0,
+      "createdAt": "2023-12-25T10:29:47.887Z",
+      "updatedAt": "2023-12-25T10:29:47.887Z"
+    },
+    {
+      "_id": "6419723bd7dc5155c04350d7",
+      "img": "https://i.ibb.co/D9qfYWX/product-cat-5.png",
+      "parent": "Bluetooth",
+      "children": ["Bluetooth Không Dây", "Bluetooth Thể Thao"],
+      "productType": "electronics",
+      "products": [
+        {
+          "brand": {
+            "name": "Lenovo",
+            "id": "6415796b0bb49c3eb913bd50"
+          },
+          "category": {
+            "name": "Bluetooth",
+            "id": "6419723bd7dc5155c04350d7"
+          },
+          "offerDate": {
+            "endDate": "2024-03-20T00:00:00.000Z",
+            "startDate": "2023-12-10T00:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e134cb",
+          "sku": "DG8SDVX32",
+          "img": "https://i.ibb.co/RYST3Ym/blutooth-4.png",
+          "title": "Lenovo Wireless Bluetooth",
+          "slug": "lenovo-wireless-bluetooth",
+          "unit": "7pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Red Wine",
+                "clrCode": "#D94043"
+              },
+              "img": "https://i.ibb.co/RYST3Ym/blutooth-4.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e27"
+            },
+            {
+              "color": {
+                "name": "Conifer",
+                "clrCode": "#B4D842"
+              },
+              "img": "https://i.ibb.co/SXSdbjM/blutooth-5.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e28"
+            },
+            {
+              "color": {
+                "name": "Silver",
+                "clrCode": "#414141"
+              },
+              "img": "https://i.ibb.co/L12vDxf/blutooth-6.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e29"
+            }
+          ],
+          "parent": "Bluetooth",
+          "children": "Wireless Bluetooth",
+          "price": 70,
+          "discount": 5,
+          "quantity": 7,
+          "status": "in-stock",
+          "reviews": [
+            "6461f6098a8552beef539317",
+            "64620cef8a8552beef5394ba",
+            "64620d3b8a8552beef5394ca"
+          ],
+          "productType": "electronics",
+          "description": "Starlight Aluminum Case with Braided Solo Loop The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Conifer, Silver"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["bluetooth", "wireless "],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-29T10:45:30.118Z"
+        },
+        {
+          "brand": {
+            "name": "Lenovo",
+            "id": "6415796b0bb49c3eb913bd50"
+          },
+          "category": {
+            "name": "Bluetooth",
+            "id": "6419723bd7dc5155c04350d7"
+          },
+          "offerDate": {
+            "startDate": "2023-05-29T18:00:00.000Z",
+            "endDate": "2023-08-29T18:00:00.000Z"
+          },
+          "_id": "641e887d05f9ee1717e134cf",
+          "sku": "DF8SDVX33",
+          "img": "https://i.ibb.co/fvXHr2Y/blutooth-1.png",
+          "title": "Lenovo Sports Bluetooth",
+          "slug": "lenovo-sports-bluetooth",
+          "unit": "7pcs",
+          "imageURLs": [
+            {
+              "color": {
+                "name": "Black",
+                "clrCode": "#31363C"
+              },
+              "img": "https://i.ibb.co/fvXHr2Y/blutooth-1.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e2b"
+            },
+            {
+              "color": {
+                "name": "Yellow",
+                "clrCode": "#DEDD80"
+              },
+              "img": "https://i.ibb.co/D920WSP/blutooth-2.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e2c"
+            },
+            {
+              "color": {
+                "name": "Light Gray",
+                "clrCode": "#C2C2C2"
+              },
+              "img": "https://i.ibb.co/Kw36W0G/blutooth-3.png",
+              "sizes": [],
+              "_id": "6589599c7dd65f9441d61e2d"
+            }
+          ],
+          "parent": "Bluetooth",
+          "children": "Sports Bluetooth",
+          "price": 70,
+          "discount": 5,
+          "quantity": 7,
+          "status": "in-stock",
+          "reviews": [],
+          "productType": "electronics",
+          "description": "Starlight Aluminum Case with Braided Solo Loop The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "additionalInformation": [
+            {
+              "key": "Announced",
+              "value": "2023, February"
+            },
+            {
+              "key": "Colors",
+              "value": "Black, Yellow, Light Gray"
+            },
+            {
+              "key": "Technology",
+              "value": "GSM / HSPA / LTE"
+            },
+            {
+              "key": "3G bands",
+              "value": "HSDPA 800 / 850 / 900 / 1900 / 2100"
+            },
+            {
+              "key": "4G bands",
+              "value": "1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41"
+            },
+            {
+              "key": "Graphics Coprocessor",
+              "value": "Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)"
+            },
+            {
+              "key": "Wireless Type",
+              "value": "802.11a/b/g/n/ac, Bluetooth"
+            }
+          ],
+          "tags": ["bluetooth", "sports "],
+          "sizes": [],
+          "featured": false,
+          "sellCount": 0,
+          "__v": 0,
+          "createdAt": "2023-12-25T10:29:48.504Z",
+          "updatedAt": "2023-12-25T10:29:48.504Z"
+        }
+      ],
+      "status": "Show",
+      "__v": 0,
+      "createdAt": "2023-12-25T10:29:47.887Z",
+      "updatedAt": "2023-12-25T10:29:47.887Z"
+    }
+  ]
+}
