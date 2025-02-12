@@ -13,7 +13,8 @@ import User from "../../../../models/User";
 
 export default NextAuth({
   adapter: MongoDBAdapter(clientPromise),
-  site: process.env.NEXTAUTH_URL, // Kiểm tra lại NEXTAUTH_URL có đúng không
+  // site: process.env.NEXTAUTH_URL,
+  site: "https://website-ecommerce-recommender-systems-p0r5wk64k.vercel.app",
   providers: [
     CredentialsProvider({
       name: "Credentials",
