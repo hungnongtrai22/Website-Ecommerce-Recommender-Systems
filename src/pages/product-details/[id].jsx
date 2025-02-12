@@ -204,7 +204,7 @@ export const getServerSideProps = async (context) => {
     }
   }
   const { data: recommendProducts } = await axios.post(
-    "http://localhost:3000/api/recommend/similarrating",
+    "https://website-ecommerce-recommender-systems.vercel.app/api/recommend/similarrating",
     {
       productId: product._id,
     }

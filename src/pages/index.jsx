@@ -77,7 +77,7 @@ export const getServerSideProps = async (ctx) => {
   });
   const productSales = products.filter((product) => product.sale > 0);
   const { data: recommendProducts } = await axios.get(
-    "http://localhost:3000/api/recommend/toprating"
+    "https://website-ecommerce-recommender-systems.vercel.app/api/recommend/toprating"
   );
   console.log(">>>>>>>>>>>>", recommendProducts);
   const productsDiscount = await Product.find()

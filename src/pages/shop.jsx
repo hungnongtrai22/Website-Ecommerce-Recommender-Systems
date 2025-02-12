@@ -434,7 +434,7 @@ export const getServerSideProps = async (ctx) => {
   if (searchQuery) {
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/recommend/description",
+        "https://website-ecommerce-recommender-systems.vercel.app/api/recommend/description",
         {
           keyword: searchQuery,
         }
