@@ -397,6 +397,7 @@ const DetailsWrapper = ({
                 }
                 return (
                   <Link
+                    key={productItem.slug}
                     href={`//product-details/${productItem.slug}?style=${router.query.style}&size=${i}`}
                   >
                     <button
@@ -479,6 +480,7 @@ const DetailsWrapper = ({
                 }
                 return (
                   <Link
+                    key={productItem.slug}
                     href={`/product-details/${productItem.slug}?style=${i}`}
                   >
                     <button

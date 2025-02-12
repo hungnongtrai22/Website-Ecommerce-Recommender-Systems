@@ -9,7 +9,7 @@ import Wrapper from "@/layout/wrapper";
 import error from "@assets/img/product/cartmini/empty-cart.png";
 import { getSession } from "next-auth/react";
 import axios from "axios";
-const payOrderPage = ({ id }) => {
+const PayOrderPage = ({ id }) => {
   useEffect(() => {
     const payOrder = async () => {
       const res = await axios.put(`/api/order/${id}/pay`, {
@@ -59,4 +59,4 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-export default payOrderPage;
+export default PayOrderPage;

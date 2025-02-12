@@ -174,7 +174,7 @@ const CheckoutArea = ({ addresses, cart, setAddresses, selectedAddress }) => {
                           Danh Sách Địa Chỉ Giao Hàng
                         </h3>
                         {addresses.map((address) => (
-                          <div className="col-lg-6">
+                          <div className="col-lg-6" key={address._id}>
                             <AddressCard
                               address={address}
                               cart={cart}

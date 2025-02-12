@@ -54,9 +54,9 @@ const Footer = ({
                     </p>
                     <div className="tp-footer-social">
                       {social_data.map((s) => (
-                        <a href={s.link} key={s.id} target="_blank">
+                        <Link href={s.link} key={s.id} target="_blank">
                           <i className={s.icon}></i>
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -68,22 +68,22 @@ const Footer = ({
                   <div className="tp-footer-widget-content">
                     <ul>
                       <li>
-                        <a href="/checkorder">Kiểm Tra Đơn Hàng</a>
+                        <Link href="/checkorder">Kiểm Tra Đơn Hàng</Link>
                       </li>
                       <li>
-                        <a href="#">Vận Chuyển</a>
+                        <Link href="#">Vận Chuyển</Link>
                       </li>
                       <li>
-                        <a href="#">Danh Sách Yêu Thích</a>
+                        <Link href="#">Danh Sách Yêu Thích</Link>
                       </li>
                       <li>
-                        <a href="#">Tài Khoản</a>
+                        <Link href="#">Tài Khoản</Link>
                       </li>
                       <li>
-                        <a href="#">Lịch Sử Đơn Hàng</a>
+                        <Link href="#">Lịch Sử Đơn Hàng</Link>
                       </li>
                       <li>
-                        <a href="#">Hoàn Trả</a>
+                        <Link href="#">Hoàn Trả</Link>
                       </li>
                     </ul>
                   </div>
@@ -95,22 +95,22 @@ const Footer = ({
                   <div className="tp-footer-widget-content">
                     <ul>
                       <li>
-                        <a href="#">Về Chúng Tôi</a>
+                        <Link href="#">Về Chúng Tôi</Link>
                       </li>
                       <li>
-                        <a href="#">Nghề Nghiệp</a>
+                        <Link href="#">Nghề Nghiệp</Link>
                       </li>
                       <li>
-                        <a href="#">Chính Sách Bảo Mật</a>
+                        <Link href="#">Chính Sách Bảo Mật</Link>
                       </li>
                       <li>
-                        <a href="#">Điều Khoản Và Điều Kiện</a>
+                        <Link href="#">Điều Khoản Và Điều Kiện</Link>
                       </li>
                       <li>
-                        <a href="#">Tin Mới Nhất</a>
+                        <Link href="#">Tin Mới Nhất</Link>
                       </li>
                       <li>
-                        <a href="#">Liên Hệ Chúng Tôi</a>
+                        <Link href="#">Liên Hệ Chúng Tôi</Link>
                       </li>
                     </ul>
                   </div>
@@ -125,7 +125,7 @@ const Footer = ({
                     <div className="tp-footer-talk mb-20">
                       <span>Có câu hỏi nào không? Gọi cho chúng tôi</span>
                       <h4>
-                        <a href="tel:84-908-817-613">+84 908 817 613</a>
+                        <Link href="tel:84-908-817-613">+84 908 817 613</Link>
                       </h4>
                     </div>
                     <div className="tp-footer-contact">
@@ -137,9 +137,9 @@ const Footer = ({
                         </div>
                         <div className="tp-footer-contact-content">
                           <p>
-                            <a href="mailto:vuquochung2204@gmail.com">
+                            <Link href="mailto:vuquochung2204@gmail.com">
                               vuquochung2204@gmail.com
-                            </a>
+                            </Link>
                           </p>
                         </div>
                       </div>
@@ -151,12 +151,12 @@ const Footer = ({
                         </div>
                         <div className="tp-footer-contact-content">
                           <p>
-                            <a
+                            <Link
                               href="https://www.google.com/maps/place/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA/@44.3304966,-75.4552367,17z/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4"
                               target="_blank"
                             >
                               59/12 khu phố 8<br /> Biên Hòa, Đồng Nai
-                            </a>
+                            </Link>
                           </p>
                         </div>
                       </div>
