@@ -5,38 +5,39 @@ import GoogleProvider from "next-auth/providers/google";
 import GitHubProvider from "next-auth/providers/github";
 import Auth0Provider from "next-auth/providers/auth0";
 import CredentialsProvider from "next-auth/providers/credentials";
-import User from "../../../../models/User";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
-import clientPromise from "../lib/mongodb";
 import bcrypt from "bcrypt";
+import clientPromise from "../lib/mongodb";
 import db from "../../../../utils/db";
-db.connectDB();
+import User from "../../../../models/User";
+
 export default NextAuth({
   adapter: MongoDBAdapter(clientPromise),
-  site: process.env.NEXTAUTH_URL,
+  site: process.env.NEXTAUTH_URL, // Kiểm tra lại NEXTAUTH_URL có đúng không
   providers: [
-    // OAuth authentication providers...
     CredentialsProvider({
-      // The name to display on the sign in form (e.g. "Sign in with...")
       name: "Credentials",
-      // `credentials` is used to generate a form on the sign in page.
-      // You can specify which fields should be submitted, by adding keys to the `credentials` object.
-      // e.g. domain, username, password, 2FA token, etc.
-      // You can pass any HTML attribute to the <input> tag through the object.
       credentials: {
-        username: { label: "Username", type: "text", placeholder: "jsmith" },
+        email: {
+          label: "Email",
+          type: "email",
+          placeholder: "example@example.com",
+        },
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials, req) {
-        const email = credentials.email;
-        const password = credentials.password;
-        const user = await User.findOne({ email });
-        if (user) {
-          // Any object returned will be saved in `user` property of the JWT
-          return SignInUser({ password, user });
-        } else {
+        if (!credentials?.email || !credentials?.password) {
+          throw new Error("Vui lòng nhập đầy đủ email và mật khẩu.");
+        }
+
+        await db.connectDB(); // Đảm bảo MongoDB được kết nối trước khi truy vấn
+
+        const user = await User.findOne({ email: credentials.email });
+        if (!user) {
           throw new Error("Email này không tồn tại.");
         }
+
+        return await signInUser({ password: credentials.password, user });
       },
     }),
     GitHubProvider({
@@ -63,15 +64,21 @@ export default NextAuth({
   ],
   callbacks: {
     async session({ session, token }) {
-      const user = await User.findById(token.sub);
-      session.user.id = token.sub || user._id.toString();
-      session.user.role = user.role || "user";
-      token.role = user.role || "user";
+      if (token.sub) {
+        const user = await User.findById(token.sub);
+        if (user) {
+          session.user.id = user._id.toString();
+          session.user.role = user.role || "user";
+          token.role = user.role || "user";
+        }
+      }
       return session;
     },
   },
   pages: {
     signIn: "/signin",
+    signOut: "/signout", // Thêm trang signOut nếu cần
+    error: "/auth/error", // Nếu có lỗi, redirect đến trang error thay vì trả về HTML
   },
   session: {
     strategy: "jwt",
@@ -79,18 +86,19 @@ export default NextAuth({
   secret: process.env.JWT_SECRET,
 });
 
-const SignInUser = async ({ password, user }) => {
+const signInUser = async ({ password, user }) => {
   if (!password) {
     throw new Error("Vui lòng nhập mật khẩu của bạn.");
   }
-  if (user.emailVerified === false) {
-    throw new Error(
-      "Vui lòng xác thực tài khoản của bạn qua hộp thư email mà bạn đã đăng ký"
-    );
+
+  if (!user.emailVerified) {
+    throw new Error("Vui lòng xác thực tài khoản của bạn qua email.");
   }
-  const testPassword = await bcrypt.compare(password, user.password);
-  if (!testPassword) {
-    throw new Error("Mật khẩu sai");
+
+  const isPasswordValid = await bcrypt.compare(password, user.password);
+  if (!isPasswordValid) {
+    throw new Error("Mật khẩu không đúng.");
   }
+
   return user;
 };

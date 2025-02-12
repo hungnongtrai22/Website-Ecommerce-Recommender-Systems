@@ -67,7 +67,7 @@ export default function Home({
 }
 
 export const getServerSideProps = async (ctx) => {
-  db.connectDB();
+  await db.connectDB();
   const { query, req } = ctx;
   const session = await getSession({ req });
 
