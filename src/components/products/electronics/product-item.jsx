@@ -120,18 +120,20 @@ const ProductItem = ({ product, offer_style = false, prd }) => {
                   <Cart /> <span className="tp-product-tooltip">View Cart</span>
                 </Link>
               ) : (
-                <button
-                  onClick={() => handleAddProduct(product)}
-                  type="button"
-                  className={`tp-product-action-btn ${
-                    isAddedToCart ? "active" : ""
-                  } tp-product-add-cart-btn`}
-                  disabled={status === "out-of-stock"}
-                >
-                  <Cart />
+                <Link href={`/product-details/${prd?.slug || _id}?style=${0}`}>
+                  <button
+                    // onClick={() => handleAddProduct(prd)}
+                    type="button"
+                    className={`tp-product-action-btn ${
+                      isAddedToCart ? "active" : ""
+                    } tp-product-add-cart-btn`}
+                    disabled={status === "out-of-stock"}
+                  >
+                    <Cart />
 
-                  <span className="tp-product-tooltip">Add to Cart</span>
-                </button>
+                    <span className="tp-product-tooltip">Shopping</span>
+                  </button>
+                </Link>
               )}
               <button
                 onClick={() => dispatch(handleProductModal(prd))}

@@ -34,7 +34,7 @@ const DetailsWrapper = ({
   sizeModal,
 }) => {
   const router = useRouter();
-  const [size, setSize] = useState(router.query.size);
+  const [size, setSize] = useState(router.query.size || 0);
   const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => ({ ...state }));
@@ -68,14 +68,14 @@ const DetailsWrapper = ({
     if (productModal == true && sizeModal == null) {
       return;
     }
-    if (!router.query.size && productModal == false) {
-      // setError("Vui lòng chọn một kích thước");
-      return;
-    }
+    // if (!router.query.size && productModal == false) {
+    //   setError("Vui lòng chọn một kích thước");
+    //   return;
+    // }
     const { data } = await axios.get(
       `/api/product/${productItem._id}?style=${
         productModal ? styleModal : productItem.style
-      }&size=${productModal ? sizeModal : router.query.size}`
+      }&size=${productModal ? sizeModal : router.query.size || 0}`
     );
     if (qty > data.quantity) {
       // setError(
